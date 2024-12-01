@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bgc.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    position: absolute;
+    top: 350px;
+    right: 890px;
+    align-items: center;
+    width: 45%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+h1{
+    color: #F4C430;
+    text-shadow: 0 0 10px #3A5FCD, 0 0 20px #3A5FCD, 0 0 30px #3A5FCD;
+    font-family: 'Serif', cursive;
+    font-size: 2.05rem; 
+    text-align: center;
+}
+
+p {
+    color: #F8F9FA; /* Soft white */
+    text-shadow: 0 0 5px #3A5FCD, 0 0 10px #3A5FCD, 0 0 15px #3A5FCD;
+    font-family: 'Serif', cursive;
+    font-size: 1.25rem; /* Slightly larger for better visibility */
+    text-align: center;
+    margin: 0.25em;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+
+#question{
+    color: #F4C430;
+    text-shadow: 0 0 10px #3A5FCD, 0 0 20px #3A5FCD, 0 0 30px #3A5FCD;
+    font-family: 'Serif', cursive;
+    font-size: 1.5rem; 
+    text-align: center;
+}
+
+/* Style for the select dropdown */
+select {
+    font-family: 'Cinzel Decorative', serif; /* Elegant font */
+    font-size: 1rem;
+    color: #3A5FCD; /* Peacock Blue for text */
+    background-color: #F8F9FA; /* Soft white background */
+    border: 2px solid #F4C430; /* Golden border */
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 0.75em; /* Add padding for a button-like appearance */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    width: 50%;
+    margin-top: 0.25em;
+}
+
+/* Hover and focus effects for the dropdown */
+select:hover, select:focus {
+    background-color: #FFD700; /* Brighter gold on hover */
+    border-color: #3A5FCD; /* Change border to blue */
+    color: #FFFFFF; /* White text for contrast */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    outline: none; /* Remove the default blue outline */
+}
+
+/* Style for the dropdown options */
+option {
+    font-family: 'Serif', cursive; /* Match the font style */
+    font-size: 1rem;
+    color: #3A5FCD; /* Text color */
+    background-color: #F8F9FA; /* Background color */
+    padding: 8px; /* Add padding for better spacing */
+    border: none; /* Remove default borders */
+    cursor: pointer;
+}
+
+
+
+.submit{
+    font-family: 'Cinzel Decorative', serif; /* Elegant font */
+    font-size: 1rem;
+    color: #3A5FCD; /* Peacock Blue for text */
+    background-color: #F8F9FA; /* Soft white background */
+    border: 2px solid #F4C430; /* Golden border */
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 0.57em; /* Add padding for a button-like appearance */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    width: 22%;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+
+.btn-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5em;
+}
+
+
+
+
